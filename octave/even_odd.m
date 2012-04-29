@@ -1,5 +1,6 @@
 # Author : Kamaraju S. Kusumanchi
-# Date (last modified) : Wed Apr 18 18:18:41 EDT 2007
+# Email  : kamaraju at gmail dot com
+# Date (last modified) : Sun Apr 29 14:31:05 EDT 2012
 #
 # prevent Octave from thinking that this is a function file
 clear;
