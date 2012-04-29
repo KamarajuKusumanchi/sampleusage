@@ -1,0 +1,25 @@
+$octave
+GNU Octave, version 3.6.1
+Copyright (C) 2012 John W. Eaton and others.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  For details, type `warranty'.
+
+Octave was configured for "i486-pc-linux-gnu".
+
+Additional information about Octave is available at http://www.octave.org.
+
+Please contribute if you find this software useful.
+For more information, visit http://www.octave.org/help-wanted.html
+
+Read http://www.octave.org/bugs.html to learn how to submit bug reports.
+
+For information about changes from previous versions, type `news'.
+
+octave:1> cd ..
+octave:2> minimum_value_01
+ans =  7
+x =  3.73768609072876e-09
+v =  1.00000000373769
+octave:3> exit
+
