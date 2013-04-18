@@ -18,6 +18,10 @@
 # $ ./using_case_01.sh kama.raju.txt.jpg
 # extension = jpg
 # this is a picture file
+# $ ./using_case_01.sh kamaraju.pdf
+# extension = pdf
+# this is a pdf file
+
 
 
 fname=$1
@@ -30,6 +34,9 @@ case $extension in
         ;;
     jpg | png | mng )
         echo "this is a picture file";
+        ;;
+    pdf )
+        echo "this is a pdf file";
         ;;
     * )
         echo "do not understand the $extension extension"
