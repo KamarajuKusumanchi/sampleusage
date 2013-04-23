@@ -9,9 +9,9 @@
 
 using namespace std;
 
-int dow_to_downum(string dow);
+int dow_to_downum(const string & dow);
 
-int dow_to_downum(string dow)
+int dow_to_downum(const string & dow)
 {
 	// dow = day of the week
 	int downum = 0;
