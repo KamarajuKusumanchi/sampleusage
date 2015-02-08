@@ -9,6 +9,7 @@ existingDF <- as.data.frame(matrix(seq(20),nrow=5,ncol=4))
 r <- 3
 newrow <- seq(4)
 
+# Insert a newrow at row r. 
 insertRow2 <- function(existingDF, newrow, r) {
   existingDF <- rbind(existingDF,newrow)
   existingDF <- existingDF[ order( c(1:(nrow(existingDF)-1),r-0.5) ),]
