@@ -32,3 +32,5 @@ divisor = [1,-3]
 
 # See also:
 # http://en.wikipedia.org/wiki/Polynomial_long_division
+# Related:
+# http://en.wikipedia.org/wiki/Sturm%27s_theorem
