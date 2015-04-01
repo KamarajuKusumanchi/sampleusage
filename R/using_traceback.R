@@ -1,3 +1,6 @@
+# Original version of the code is from
+# http://www.biostat.jhsph.edu/~rpeng/docs/R-debug-tools.pdf
+
 rm(list=ls());
 
 f <- function(x) {
