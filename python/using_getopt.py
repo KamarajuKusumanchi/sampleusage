@@ -54,3 +54,6 @@ if __name__ == "__main__":
 # Output file is " 
 # % echo $?
 # 0
+#
+# % python3 --version
+# Python 3.4.2
