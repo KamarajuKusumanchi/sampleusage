@@ -31,22 +31,26 @@ if __name__ == "__main__":
 # % ./using_getopt.py   
 # Input file is " 
 # Output file is " 
-# 
 # % echo $?
 # 0
 #
 # % ./using_getopt.py -a
 # ./using_getopt.py -i <inputfile> -o <outputfile>
-#
 #  % echo $?             
 # 2
 #
 # % ./using_getopt.py -h
 # ./using_getopt.py -i <inputfile> -o <outputfile>
+# % echo $?
+# 0
 #
 # % ./using_getopt.py -i BMP -o
 # ./using_getopt.py -i <inputfile> -o <outputfile>
+# % echo $?
+# 2
 #
 # % ./using_getopt.py -i BMP         
 # Input file is " BMP
 # Output file is " 
+# % echo $?
+# 0
