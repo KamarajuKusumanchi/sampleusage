@@ -20,6 +20,7 @@ a, b, c = 1, 2.0, "Smith"
 print(a, b, c)
 
 # sample usage:
+# % chmod +x assign_values.py
 # % ./assign_values.py 
 # 10
 # 100.0
