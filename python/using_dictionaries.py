@@ -14,6 +14,16 @@ print( tinydict )           # Prints complete dictionary
 print( tinydict.keys() )    # Prints all the keys
 print( tinydict.values() )  # Prints all the values
 
+# iterating over dictionary
+dct = {1 : 'D', 5 : 'A', 2 : 'B', 3 : 'B', 4 : 'E'}
+for k in dct:
+    print(k, dct[k])
+print()
+
+for k,v in dct.items():
+    print(k, v)
+print()
+
 # % chmod +x using_dictionaries.py
 # % ./using_dictionaries.py       
 # This is one
@@ -21,3 +31,15 @@ print( tinydict.values() )  # Prints all the values
 # {'name': 'john', 'dept': 'sales', 'code': 6734}
 # dict_keys(['name', 'dept', 'code'])
 # dict_values(['john', 'sales', 6734])
+# 1 D
+# 2 B
+# 3 B
+# 4 E
+# 5 A
+# 
+# 1 D
+# 2 B
+# 3 B
+# 4 E
+# 5 A
+# 
