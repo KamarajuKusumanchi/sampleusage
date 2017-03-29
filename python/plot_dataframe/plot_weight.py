@@ -2,7 +2,13 @@
 """
 Spyder Editor
 
-This is a temporary script file.
+This script shows how to plot data in a dataframe
+
+google searches
+python plot dataframe date yyyy-mm-dd
+python plot dataframe one column against another
+python plot dataframe datetime object against float
+df.plot window disappears
 """
 
 import pandas as pd
