@@ -1,0 +1,9 @@
+ID,y,X0,X1,X2,X3,X4,X5,X6,X8
+681,169.91,aa,l,ak,f,d,i,c,d
+1770,265.32,y,r,ai,f,d,ag,l,t
+1784,158.53,aj,l,as,f,d,ag,k,e
+2396,160.87,j,o,as,f,d,ab,g,p
+2903,167.45,ai,b,ae,a,d,ac,g,m
+5471,158.23,x,v,e,c,d,m,g,s
+6273,165.52,aj,v,r,c,d,q,g,a
+7500,155.62,x,f,ak,c,d,v,d,d

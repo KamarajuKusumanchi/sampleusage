@@ -9,6 +9,10 @@ python plot dataframe date yyyy-mm-dd
 python plot dataframe one column against another
 python plot dataframe datetime object against float
 df.plot window disappears
+
+To run it from the command line
+$ python3
+>>> exec(open("plot_weight.py").read(), globals())
 """
 
 import pandas as pd
