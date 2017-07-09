@@ -1,4 +1,5 @@
 def median(lst):
+    # Note:- original array is not modified
     lst = sorted(lst)
     n = len(lst)
     if n < 1:
