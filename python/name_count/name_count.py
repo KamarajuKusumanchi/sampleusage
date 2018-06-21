@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+
+# sample usage:
+# cat names.log | ./name_count.py
 import sys
 
 if __name__ == "__main__":
