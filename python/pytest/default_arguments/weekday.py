@@ -2,9 +2,10 @@ from datetime import datetime
 from calendar import monthrange
 from dateutil.relativedelta import relativedelta
 
-def last_weekday_of_month(doi, weekdoi=4, date_fmt='%Y%m%d'):
+def last_xday_of_month(doi, weekdoi=4, date_fmt='%Y%m%d'):
     """
-    Get last week day of a month
+    Get last xth day of a month. For example
+    get the last Friday of a month.
     :param doi: date of interest. Specified in the date_fmt
     :param weekdoi: week day of interest specified as an integer, where
      Monday is 0 and Sunday is 6. Default is set to 4 for Friday.
