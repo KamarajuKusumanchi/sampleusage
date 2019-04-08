@@ -1,4 +1,4 @@
-# In weather.avro, the SampleData field is stored as string. Change it to int.
+# In weather.avro, the sample field is stored as string. Change it to int.
 
 from fastavro import reader, writer, parse_schema
 
