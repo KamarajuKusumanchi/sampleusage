@@ -1,0 +1,7 @@
+# Setup an environment with a given python version and one important package
+name: scratch_py36_pyarrow
+channels:
+  - defaults
+dependencies:
+  - python=3.6.8
+  - pyarrow
