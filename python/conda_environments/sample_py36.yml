@@ -1,0 +1,9 @@
+name: sample_py36
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6.8
+  - pandas=0.24.1
+  - pip:
+    - fastavro==0.21.18
