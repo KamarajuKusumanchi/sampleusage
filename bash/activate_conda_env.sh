@@ -1,4 +1,4 @@
-# Snippet to activate a conda environment if necessary
+# Snippet to activate a conda environment only if needed.
 #! /usr/bin/env bash
 
 desired_env=py38
