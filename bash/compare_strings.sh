@@ -12,3 +12,7 @@ then
 else
     echo "unknown terminal"
 fi
+
+# Ref:
+# * https://stackoverflow.com/questions/2237080/how-to-compare-strings-in-bash
+#  * explains why the quotes (ex:- "$terminal_type") are important.
