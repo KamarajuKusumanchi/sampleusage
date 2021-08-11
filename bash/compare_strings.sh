@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-# compare strings, if else condition
+# Sample script to show how string comparison works in bash
 
 terminal_type=`uname -s | cut -f 1 -d '-'`
 if [ "$terminal_type" = "MINGW64_NT" ];
